@@ -1,21 +1,14 @@
 const fs = require("fs");
 const input = fs.readFileSync("input.txt").toString();
 
-
 // Rock defeats Scissors
 // Scissors defeats Paper 
 // Paper defeats Rock
 // If both players choose the same shape, the round instead ends in a draw
-// 
-
 
 const test = input
 .split("\n")
 // .map((el) => el.split(" ")) // für Aufgabe1
-
-// const testInput = [[ 'B', 'Z' ], [ 'B', 'Z' ], [ 'B', 'Y' ], [ 'C', 'Y' ], [ 'B', 'Y' ]]
-
-
 
 const game = (test) => {
   let player1 = 0;
