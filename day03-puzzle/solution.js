@@ -47,20 +47,6 @@ for (let i = 0; i < test.length; i+= chunkSize) {
   test2.push(chunk)
 }
 
-// const testInputData = 
-// [
-//   [
-//       "vJrwpWtwJgWrhcsFMMfFFhFp",
-//       "jqHRNqRjqzjGDLGLrsFMfFZSrLrFZsSL",
-//       "PmmdzqPrVvPwwTWBwg"
-//   ],
-//   [
-//       "wMqvLMZHhHMvwLHjbvcjnnSBnvTQFn",
-//       "ttgJtRGJQctTZtZT",
-//       "CrZsJsPPZsGzwwsLwLmpwMDw"
-//   ]
-// ]
-
 const divideAndCheck = (test) => {
   let firstPart = []
   let secondPart = []
@@ -85,20 +71,5 @@ const divideAndCheck = (test) => {
 const result = divideAndCheck(test2);
 console.log(result);
 
-// console.log(test2);
 
-
-
-
-// const string = ["jqHRNqRjqzjGDLGLrsFMfFZSrLrFZsSL"]
-// const abc = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
-// const firstPart = string[0].slice(0, string[0].length/2).split("")
-// const secondPart = string[0].slice(string[0].length/2).split("")
-// const equalChar = []
-// equalChar.push(firstPart.filter((char) => secondPart.includes(char)));
-// const index = (abc.indexOf(equalChar[0][0])+1)
-// console.log("firstPart: ", firstPart);
-// console.log("secondPart: ", secondPart);
-// console.log("equalChar: ", equalChar);
-// console.log("index: ", index);
 
