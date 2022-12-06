@@ -6,6 +6,8 @@ const input = fs.readFileSync("input.txt").toString();
 // Paper defeats Rock
 // If both players choose the same shape, the round instead ends in a draw
 
+// TASK 1
+
 const test = input
 .split("\n")
 // .map((el) => el.split(" ")) // für Aufgabe1
@@ -64,6 +66,8 @@ const game = (test) => {
   return [{resPl1: player1}, {resPl2: player2}]
 }
 // const result = game(test);
+
+// TASK 2
 
 const result2 = test.map(game => {
   //DRAW
